@@ -1,0 +1,120 @@
+*{ margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header {
+    background-color:black;
+    .nav-link{
+        color:blue !important;
+    }
+}
+main{
+    background-color:rgb(241, 232, 232);
+    .gridPadre{
+        display: grid;
+    grid-template-areas:
+    "nosotros video";
+    .quienesSomos{
+        grid-area: nosotros;
+        color:black;
+    font-style:italic;
+    font-size: 120%;
+    text-align: center;
+    padding: 50px;
+    }
+    .video{
+        grid-area: video;
+    }
+    }
+}
+.tituloRojo{
+    color: red;
+    font-style: italic;
+    font-size: 25px;
+    text-align:center;
+
+}
+footer{
+.footerContacto{background-color:rgb(251, 251, 215);
+}
+.wath:hover{
+    
+    transform:translateY(50px);
+    }
+    .ig:hover{
+        transform: translateY(50px);
+    }
+    .fb:hover{
+        transform: translateY(50px);
+    }
+}
+/*--pag ninos--*/
+.mainNinos{
+    background-color:rgb(241, 232, 232);
+    .gridNinos{
+        display: grid;
+    grid-template-areas:
+    "productos  nosotros";
+    grid-template-columns: 3fr 2fr;
+   justify-items:start;
+   justify-content: start;
+    }
+    
+    .nosotrosNinos{
+            grid-area: nosotros;
+            margin-right: 50px;
+            margin-top: 30px;
+            font-size: 25px;
+            font-style: oblique;}
+    .productosVenta{
+                grid-area: productos;
+                margin-left: 50px;
+                margin-top: 20px;
+                display:flex;
+                flex-direction: row;
+                
+                font-size: 20px;
+            }
+    }
+    div{
+        .invitacion{
+            color: orangered;
+            font-size: 25px;
+            font-style: oblique;
+            text-align: center;
+        }
+    }
+    footer{
+        .footerNinos{
+            background-color: rgb(251, 251, 215)
+        }
+        .contactoNinos{
+            display: flex;
+            justify-content: end;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+    }
+    /*--pag mujer--*/
+main{
+    .mainMujer{
+        background-color:rgb(241, 232, 232);
+    }
+    .quienesSomos{
+        margin-top: 10px;
+        font-size: 20px;
+        text-align: center;
+        font-style: oblique;
+    }
+    section{
+        .navegador{
+            font-size: 20px;
+            color: red;
+            display: grid;
+            grid-template-rows:2fr 2fr;
+        }
+        .mujer li{
+            font-size: 18px;
+        }
+    }

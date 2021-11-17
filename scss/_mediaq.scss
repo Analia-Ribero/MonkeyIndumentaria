@@ -1,0 +1,86 @@
+.fondoIndex{
+@media screen and (max-width: 768px) {
+    .quienesSomos{
+        color: red;
+    }
+    .gridPadre{
+        display: flex;
+        flex-direction: column;
+    }
+    }
+    
+    @media screen and (max-width: 576px) {
+        .quienesSomos{
+            color: black;
+        }
+        .gridPadre{
+            display: flex;
+            flex-direction: column;
+        }
+        }
+    }
+    @media screen and (max-width: 576px){
+        .videoLanzamiento{
+            width: 450px;
+         height: 415px;
+        }
+    }
+    /*--footer index--*/
+@media screen and (max-width: 768px){
+    .mapa{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .mapa{
+        display: none;
+    }
+}
+/*--footer hombre--*/
+@media screen and (max-width: 768px) {
+    .gridFooter{
+        display: none;
+        
+    }
+}
+@media screen and (max-width: 576px){
+    .formasPago{
+            display: none;
+        }
+    }
+/*--mujer--*/
+@media screen and (max-width: 768px){
+    .videoMujer{
+        width: 100%;
+        height: auto;
+    }
+}
+@media screen and (max-width: 576px){
+    .videoMujer{
+        width: auto;
+        height: auto;
+    }
+}
+@media screen and (max-width: 768px){
+    .lanzamientoMujer{
+        font-size: 25px;
+        color:black
+}
+.productos{
+    font-size: 25px;
+    color: black;
+}
+@media screen and (max-width: 768px){
+    .imagenesMujer{
+        width: auto;
+        height: auto ;
+    }
+    .imgMujer{
+        display: none;
+
+    }
+}
+}
+/*--Niños--*/
+

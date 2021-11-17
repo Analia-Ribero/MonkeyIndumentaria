@@ -1,0 +1,50 @@
+.mainNinos{
+    background-color: $color-principal;
+    .gridNinos{
+        display: grid;
+        grid-template-areas:
+        "productos  nosotros";
+        grid-template-columns: 3fr 2fr;
+       justify-items:start;
+       justify-content: start;
+    }
+    .nosotrosNinos{
+        grid-area: nosotros;
+        margin-right: 50px;
+        margin-top: 30px;
+        font-size: 25px;
+        font-style: oblique;
+       
+    }
+    .productosVenta{
+        grid-area: productos;
+        margin-left: 100px;
+        margin-top: 20px;
+
+        ul{
+            font-size: 20px;
+            font-style:italic;
+            li{ font-size: 20px;
+                font-style: oblique ;
+
+            }
+        }
+    
+    }
+    section{
+        .nosotrosNinos{
+            color: black;
+            text-align: center;
+            font-style: italic;
+            font-size: 25px ;
+            
+        }
+        p{
+            color: blue;
+            text-align: center;
+            font-style: italic;
+            font-size: 25px ;
+            
+        }
+    }
+}

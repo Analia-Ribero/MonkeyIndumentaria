@@ -1,0 +1,107 @@
+.footerIndex{
+    background-color: $color-footer;
+    .pagos{
+            font-size: 20px;
+        text-align: center;}
+        
+            .formulario{
+                border-top: solid 3px rgb(141, 148, 156);
+                border-right: solid 3px rgb(141, 148, 156);
+                border-bottom: solid 3px rgb(141, 148, 156);
+                border-left:solid 3px rgb(141, 148, 156);
+                }
+                .footerContacto{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-evenly;
+                }
+                .wath{
+                    &:hover{transform:translateY(50px);}
+                }
+                .ig{
+                    &:hover{transform:translateY(50px);}
+                }
+                .fb{
+                    &:hover{transform:translateY(50px);}
+                }
+            }
+           /*--footer hombre--*/
+            .footerHombre{
+                .gridFooter{
+                display: grid;
+                grid-template-areas: "formulario contacto";}
+        .formasPago{
+            margin-top: 40px;
+            grid-area: formulario;
+          color:blue;
+          margin-left: 100px
+        ;
+   
+        }
+        .contacto{
+            margin-top: 40px;
+            grid-area: contacto;
+        }
+                
+                background-color:$color-footer;
+            
+        }
+/*--mujer--*/
+.footerMujer{
+    background-color: $color-footer
+}
+.pagoMujer{
+    margin-top: 30px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.footerContacto{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.wath{
+    &:hover{transform:translateY(50px);}
+}
+.ig{
+    &:hover{transform:translateY(50px);}
+}
+.fb{
+    &:hover{transform:translateY(50px);}
+}
+/*--Niños--*/
+.footerNinos{
+    background-color: $color-footer;
+    .comunicate{
+      color:blue;
+        font-size: 25px;
+        text-align: center;
+        font-style: oblique;
+    }
+    .contactoNinos{
+        
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    }
+    
+}
+/*--mayorista--*/
+.footerMayorista{
+    background-color: $color-footer;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    .pagoMayorista{
+        margin-top: 20px;
+        color: blue;
+        font-size: 15px;
+        font-style: italic;
+        display: flex;
+        flex-direction: row;
+    }
+}
+

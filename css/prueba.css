@@ -1,47 +1,196 @@
+@charset "UTF-8";
 * {
   margin: 0%;
   padding: 0%;
   box-sizing: border-box; }
 
-header {
-  background-color: black; }
-  header .nav-link {
-    color: blue !important; }
+@media screen and (max-width: 768px) {
+  .fondoIndex .quienesSomos {
+    color: red; }
+  .fondoIndex .gridPadre {
+    display: flex;
+    flex-direction: column; } }
 
-main {
-  background-color: #f1e8e8; }
-  main .gridPadre {
+@media screen and (max-width: 576px) {
+  .fondoIndex .quienesSomos {
+    color: black; }
+  .fondoIndex .gridPadre {
+    display: flex;
+    flex-direction: column; } }
+
+@media screen and (max-width: 576px) {
+  .videoLanzamiento {
+    width: 450px;
+    height: 415px; } }
+
+/*--footer index--*/
+@media screen and (max-width: 768px) {
+  .mapa {
+    display: none; } }
+
+@media screen and (max-width: 576px) {
+  .mapa {
+    display: none; } }
+
+/*--footer hombre--*/
+@media screen and (max-width: 768px) {
+  .gridFooter {
+    display: none; } }
+
+@media screen and (max-width: 576px) {
+  .formasPago {
+    display: none; } }
+
+/*--mujer--*/
+@media screen and (max-width: 768px) {
+  .videoMujer {
+    width: 100%;
+    height: auto; } }
+
+@media screen and (max-width: 576px) {
+  .videoMujer {
+    width: auto;
+    height: auto; } }
+
+@media screen and (max-width: 768px) {
+  .lanzamientoMujer {
+    font-size: 25px;
+    color: black; }
+  .productos {
+    font-size: 25px;
+    color: black; } }
+
+@media screen and (max-width: 768px) and (max-width: 768px) {
+  .imagenesMujer {
+    width: auto;
+    height: auto; }
+  .imgMujer {
+    display: none; } }
+
+/*--Niños--*/
+.footerIndex {
+  background-color: #fbfbd7; }
+  .footerIndex .pagos {
+    font-size: 20px;
+    text-align: center; }
+  .footerIndex .formulario {
+    border-top: solid 3px #8d949c;
+    border-right: solid 3px #8d949c;
+    border-bottom: solid 3px #8d949c;
+    border-left: solid 3px #8d949c; }
+  .footerIndex .footerContacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; }
+  .footerIndex .wath:hover {
+    transform: translateY(50px); }
+  .footerIndex .ig:hover {
+    transform: translateY(50px); }
+  .footerIndex .fb:hover {
+    transform: translateY(50px); }
+
+/*--footer hombre--*/
+.footerHombre {
+  background-color: #fbfbd7; }
+  .footerHombre .gridFooter {
     display: grid;
-    grid-template-areas: "nosotros video"; }
-    main .gridPadre .quienesSomos {
-      grid-area: nosotros;
-      color: black;
-      font-style: italic;
-      font-size: 120%;
-      text-align: center;
-      padding: 50px; }
-    main .gridPadre .video {
-      grid-area: video; }
+    grid-template-areas: "formulario contacto"; }
+  .footerHombre .formasPago {
+    margin-top: 40px;
+    grid-area: formulario;
+    color: blue;
+    margin-left: 100px; }
+  .footerHombre .contacto {
+    margin-top: 40px;
+    grid-area: contacto; }
 
-.tituloRojo {
-  color: red;
-  font-style: italic;
-  font-size: 25px;
-  text-align: center; }
-
-footer .footerContacto {
+/*--mujer--*/
+.footerMujer {
   background-color: #fbfbd7; }
 
-footer .wath:hover {
+.pagoMujer {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.footerContacto {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; }
+
+.wath:hover {
   transform: translateY(50px); }
 
-footer .ig:hover {
+.ig:hover {
   transform: translateY(50px); }
 
-footer .fb:hover {
+.fb:hover {
   transform: translateY(50px); }
 
-/*--pag ninos--*/
+/*--Niños--*/
+.footerNinos {
+  background-color: #fbfbd7; }
+  .footerNinos .comunicate {
+    color: blue;
+    font-size: 25px;
+    text-align: center;
+    font-style: oblique; }
+  .footerNinos .contactoNinos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+
+/*--mayorista--*/
+.footerMayorista {
+  background-color: #fbfbd7;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; }
+  .footerMayorista .pagoMayorista {
+    margin-top: 20px;
+    color: blue;
+    font-size: 15px;
+    font-style: italic;
+    display: flex;
+    flex-direction: row; }
+
+/*--Hombre--*/
+.mainHombre {
+  background-color: #f1e8e8; }
+  .mainHombre h4 {
+    text-align: center;
+    font-style: oblique;
+    font-family: initial; }
+
+.mainMujer {
+  background-color: #f1e8e8; }
+  .mainMujer .quienesSomos {
+    color: blue;
+    margin-top: 10px;
+    font-size: 25px;
+    text-align: center;
+    font-style: oblique; }
+  .mainMujer .videoM .lanzamientoMujer {
+    color: blue;
+    font-size: 30px;
+    text-align-last: center; }
+  .mainMujer .videoM .videoM {
+    margin-left: 300px; }
+  .mainMujer .productos {
+    font-size: 30px;
+    color: blue;
+    text-align: center; }
+  .mainMujer .imagenesMujer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+  .mainMujer .imgMujer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+
 .mainNinos {
   background-color: #f1e8e8; }
   .mainNinos .gridNinos {
@@ -58,42 +207,86 @@ footer .fb:hover {
     font-style: oblique; }
   .mainNinos .productosVenta {
     grid-area: productos;
-    margin-left: 50px;
-    margin-top: 20px;
+    margin-left: 100px;
+    margin-top: 20px; }
+    .mainNinos .productosVenta ul {
+      font-size: 20px;
+      font-style: italic; }
+      .mainNinos .productosVenta ul li {
+        font-size: 20px;
+        font-style: oblique; }
+  .mainNinos section .nosotrosNinos {
+    color: black;
+    text-align: center;
+    font-style: italic;
+    font-size: 25px; }
+  .mainNinos section p {
+    color: blue;
+    text-align: center;
+    font-style: italic;
+    font-size: 25px; }
+
+.mainMayorista {
+  background-color: #f1e8e8; }
+  .mainMayorista .mayorista {
+    font-family: inherit;
+    font-style: oblique;
+    text-align: center;
+    color: blue;
+    font-size: 20px; }
+  .mainMayorista .beneficioMayorista {
     display: flex;
     flex-direction: row;
-    font-size: 20px; }
+    justify-content: space-evenly; }
+  .mainMayorista .preguntasMayorista {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px; }
+  .mainMayorista .venta {
+    display: flex;
+    flex-direction: column;
+    justify-content: start; }
+    .mainMayorista .venta .opcionDeVenta {
+      font-size: 25px;
+      font-family: inherit;
+      font-style: oblique;
+      color: blue;
+      margin-top: 50px; }
 
-div .invitacion {
-  color: orangered;
-  font-size: 25px;
-  font-style: oblique;
-  text-align: center; }
+header {
+  background-color: black; }
+  header .nav-link {
+    font-size: 20px;
+    color: blue !important; }
 
-footer .footerNinos {
-  background-color: #fbfbd7; }
-
-footer .contactoNinos {
-  display: flex;
-  justify-content: end;
-  margin-top: 50px;
-  margin-bottom: 50px; }
-
-/*--pag mujer--*/
-main .mainMujer {
+main {
   background-color: #f1e8e8; }
+  main .quienesSomos {
+    color: black;
+    font-style: italic;
+    font-size: 120%;
+    text-align: center;
+    padding: 50px; }
+  main .gridPadre {
+    display: grid;
+    grid-template-areas: "nosotros video"; }
+  main .quienesSomos {
+    grid-area: nosotros; }
+  main .video {
+    grid-area: video; }
+  main .tituloRojo {
+    color: black;
+    font-style: italic;
+    font-size: 25px;
+    text-align: center; }
+  main h2 {
+    color: #5858eb;
+    text-align: center; }
+    main h2:hover {
+      animation-duration: 2s;
+      animation-name: aparecer; }
 
-main .quienesSomos {
-  margin-top: 10px;
-  font-size: 20px;
-  text-align: center;
-  font-style: oblique; }
-
-main section .navegador {
-  font-size: 20px;
-  color: red;
-  display: grid;
-  grid-template-rows: 2fr 2fr; }
-
-main section .mujer li {
-  font-size: 18px; }
+@keyframes aparecer {
+  0% {
+    opacity: 0; } }

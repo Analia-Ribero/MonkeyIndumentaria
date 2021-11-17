@@ -77,9 +77,7 @@ font-style: italic;
             font-size: 25px;
             text-align:center;
 }
-ul li { color: rgb(155, 49, 30);
-font-style: initial;
-}
+
 .horario{
     margin: 20px;
     text-align:center;
@@ -218,6 +216,7 @@ ul{
 background-color:rgb(251, 251, 215)
 }
 .formulario{
+    
     border-top: solid 5px #f9844a;
     border-right: solid 5px #f9844a;
     border-bottom: solid 5px #f9844a;
@@ -256,12 +255,7 @@ transform:translateY(50px);
     font-style: oblique;
 
 }
-.lanzamientoMujer{
-    color: black;
-    font-size: 30px;
-    text-align-last: center
-    ;
-}
+
 .videoM{
     display: flex;
     flex-direction: column;

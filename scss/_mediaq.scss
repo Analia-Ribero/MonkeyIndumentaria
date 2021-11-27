@@ -51,36 +51,38 @@
     }
 /*--mujer--*/
 @media screen and (max-width: 768px){
-    .videoMujer{
-        width: 100%;
-        height: auto;
-    }
-}
-@media screen and (max-width: 576px){
-    .videoMujer{
+    .lanzamientoM{
+    .videoM{
+        .videoMujer{
         width: auto;
         height: auto;
+        
     }
 }
-@media screen and (max-width: 768px){
-    .lanzamientoMujer{
-        font-size: 25px;
-        color:black
+}
+}
+@media screen and (max-width: 576px){
+    .lanzamientoM{
+        .lanzamientoMujer{
+            color: black;
+            font-size: 15px;
+        }
+        .videoM{    
+        .videoMujer{
+        width: auto;
+        height: auto;
+        margin-left: none;
+        }
+    }
+}
 }
 .productos{
     font-size: 25px;
     color: black;
 }
-@media screen and (max-width: 768px){
-    .imagenesMujer{
-        width: auto;
-        height: auto ;
-    }
-    .imgMujer{
-        display: none;
 
-    }
-}
-}
-/*--Niños--*/
+
+
+
+
 

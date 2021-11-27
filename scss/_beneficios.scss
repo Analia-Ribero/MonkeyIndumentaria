@@ -12,11 +12,23 @@
         flex-direction: row;
         justify-content: space-evenly;
         }
-        .preguntasMayorista{
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            margin-top: 30px;
+    .preguntasFrecuentes{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-top: 40px;
+        .respuesta{color: black;}
+    }    
+        }
+       .mayorista{
+            flex-direction: column;
+                justify-content: center;
+            .contactoMayorista{
+                color: blue;
+           
+        }
+        .formularioMayorista{
+            margin-left: 50px;
         }
         .venta{
             display: flex;
@@ -30,6 +42,6 @@
                 margin-top: 50px;
             }
         }
-    }
+       }
 
 

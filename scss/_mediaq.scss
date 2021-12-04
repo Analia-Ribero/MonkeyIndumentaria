@@ -21,8 +21,8 @@
     }
     @media screen and (max-width: 576px){
         .videoLanzamiento{
-            width: 450px;
-         height: 415px;
+            width: 350px;
+         height: 315px;
         }
     }
     /*--footer index--*/
@@ -61,12 +61,8 @@
 }
 }
 }
-@media screen and (max-width: 576px){
-    .lanzamientoM{
-        .lanzamientoMujer{
-            color: black;
-            font-size: 15px;
-        }
+
+    @media screen and (max-width: 576px){  
         .videoM{    
         .videoMujer{
         width: auto;
@@ -75,12 +71,14 @@
         }
     }
 }
+/**--Niños--*/
+@media screen and (max-width: 576px){
+.mainNinos{
+    .productosVenta{
+        margin-left: 50px;
+    }
 }
-.productos{
-    font-size: 25px;
-    color: black;
 }
-
 
 
 

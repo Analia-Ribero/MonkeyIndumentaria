@@ -20,8 +20,8 @@
 
 @media screen and (max-width: 576px) {
   .videoLanzamiento {
-    width: 450px;
-    height: 415px; } }
+    width: 350px;
+    height: 315px; } }
 
 /*--footer index--*/
 @media screen and (max-width: 768px) {
@@ -48,17 +48,15 @@
     height: auto; } }
 
 @media screen and (max-width: 576px) {
-  .lanzamientoM .lanzamientoMujer {
-    color: black;
-    font-size: 15px; }
-  .lanzamientoM .videoM .videoMujer {
+  .videoM .videoMujer {
     width: auto;
     height: auto;
     margin-left: none; } }
 
-.productos {
-  font-size: 25px;
-  color: black; }
+/**--Niños--*/
+@media screen and (max-width: 576px) {
+  .mainNinos .productosVenta {
+    margin-left: 50px; } }
 
 .footerIndex {
   background-color: #fbfbd7; }
@@ -155,6 +153,13 @@
     text-align: center;
     font-style: oblique;
     font-family: initial; }
+  .mainHombre .accordion-button {
+    color: black;
+    font-style: oblique;
+    font-size: 20px; }
+  .mainHombre .accordion-body {
+    font-size: 15px;
+    font-style: italic; }
 
 .mainMujer {
   background-color: #f1e8e8; }
@@ -164,6 +169,10 @@
     font-size: 25px;
     text-align: center;
     font-style: oblique; }
+  .mainMujer .navegador {
+    font-style: italic !important; }
+  .mainMujer .mujer {
+    font-style: italic; }
   .mainMujer .lanzamientoMujer {
     color: blue;
     font-size: 40px;
@@ -171,7 +180,9 @@
   .mainMujer .videoM {
     display: flex;
     flex-direction: row;
-    justify-content: center; }
+    justify-content: center;
+    height: 100%;
+    width: 100%; }
 
 .productos {
   font-size: 40px;
@@ -225,6 +236,10 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly; }
+    .mainMayorista .beneficioMayorista .card-text {
+      font-style: oblique; }
+  .mainMayorista section .card-text {
+    font-style: oblique; }
   .mainMayorista .preguntasFrecuentes {
     display: flex;
     flex-direction: row;
@@ -232,6 +247,10 @@
     margin-top: 40px; }
     .mainMayorista .preguntasFrecuentes .respuesta {
       color: black; }
+    .mainMayorista .preguntasFrecuentes h5 {
+      font-style: italic; }
+    .mainMayorista .preguntasFrecuentes h6 {
+      font-style: italic; }
 
 .mayorista {
   flex-direction: column;
@@ -254,6 +273,7 @@
 header {
   background-color: black; }
   header .nav-link {
+    font-style: oblique;
     font-size: 20px;
     color: blue !important; }
 

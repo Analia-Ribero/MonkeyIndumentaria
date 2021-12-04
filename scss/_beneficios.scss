@@ -11,13 +11,26 @@
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
+        .card-text{
+            font-style:oblique;
         }
+        }
+        section{
+    .card-text{
+            font-style:oblique;}
+    }
     .preguntasFrecuentes{
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
         margin-top: 40px;
         .respuesta{color: black;}
+        h5{
+            font-style: italic;
+        }
+        h6{
+            font-style: italic;
+        }
     }    
         }
        .mayorista{
